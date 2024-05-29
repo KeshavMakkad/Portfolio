@@ -1,0 +1,35 @@
+.text-container {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* direction: initial; */
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.color-1 {
+  font-weight: 700;
+}
+
+.color-2 {
+  font-weight: 800;
+  color: #7c3aed;
+}
+
+.brief-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 2rem; */
+  margin: 2rem;
+  width: 100%;
+}
+
+.brief-image {
+  width: 20%;
+  height: 15%;
+}
+
+h1 {
+  margin: 10px 0;
+}

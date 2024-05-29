@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 95vh;
+  /* padding: 0 5rem; */
+}
+
+.main-home-text {
+  color: black;
+  width: 60%;
+}
+
+.main-home-text h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.main-home-text h2 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.main-home-text .name {
+  color: #7c3aed;
+}
+
+.main-home-text h3 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.image-home {
+  width: 20vw;
+}
+
+.dev-pic {
+  width: 200px;
+}
