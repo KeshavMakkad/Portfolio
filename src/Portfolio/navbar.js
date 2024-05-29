@@ -15,7 +15,7 @@ function navbar() {
           <span className="material-symbols-outlined link-element">home</span>
           <span className="link-element">Home</span>
         </a>
-        <a href="/about" className="link-container">
+        <a href="./AboutMe/about.js" className="link-container">
           <span className="material-symbols-outlined link-element">person</span>
           <span className="link-element">About Me</span>
         </a>

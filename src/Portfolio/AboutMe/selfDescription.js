@@ -34,6 +34,8 @@ function selfDescription() {
           .
         </p>
       </div>
+      <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffree-png-vectors%2Fprogrammer&psig=AOvVaw0lTLyQSlUtqVAiVnDEoHdg&ust=1717053178880000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCgodinsoYDFQAAAAAdAAAAABAE" alt="Dev Cartoon
+      "/>
     </div>
   );
 

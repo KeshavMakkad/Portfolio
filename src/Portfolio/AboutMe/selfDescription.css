@@ -1,6 +1,9 @@
 .description-container {
   height: 95vh;
-  padding: 
+  padding: 0 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .desctiprion-text-container {

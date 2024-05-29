@@ -1,5 +1,5 @@
-import Navbar from "./../navbar.js";
-import Footer from "./../footer.js";
+import Navbar from "../navbar.js";
+import Footer from "../footer.js";
 import SelfDescription from "./selfDescription.js";
 
 function aboutMe() {

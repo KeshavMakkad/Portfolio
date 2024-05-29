@@ -9,8 +9,11 @@
   align-items: center;
   padding: 1rem 20px;
   border-bottom: 2px solid black;
-  /* width: 99vw; */
+  width: 98vw;
   height: 5vh;
+
+  background-color: white;
+  position: fixed;
 }
 
 .nav-links-container {
@@ -37,3 +40,4 @@ a:visited {
   text-decoration: none;
   color: black;
 }
+
