@@ -5,7 +5,7 @@ import SkillSet from "./skillSet.js";
 
 function aboutMe() {
   const aboutMe = (
-    <div id="about"class="about-me-containr">
+    <div id="about" class="about-me-containr">
       <Navbar />
       <SelfDescription />
       <SkillSet />

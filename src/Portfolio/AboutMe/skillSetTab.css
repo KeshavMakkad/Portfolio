@@ -1,33 +1,24 @@
-*{
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.skill-set-tab{
-    height: 150px;
-    width: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid black;
-    border-radius: 5px;
+.skill-set-tab {
+  height: 150px;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 5px;
 }
 
-.skill-set-img{
-    height: 45%;
-    width: 45%;
-
+.skill-set-img {
+  height: 45%;
+  width: 45%;
 }
 
-.skills-heading{
-    text-align: center;
-    margin: 2rem;
-}
-
-.skills-conatiner{
-    display: flex;
-    padding: 0 10rem;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.skills-heading {
+  text-align: center;
+  margin: 2rem;
 }

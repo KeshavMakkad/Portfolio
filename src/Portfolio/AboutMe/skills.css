@@ -1,0 +1,7 @@
+.skills-conatiner {
+  display: flex;
+  padding: 0 10rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
