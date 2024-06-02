@@ -2,7 +2,7 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   /* direction: initial; */
-  width: 60%;
+  width: 40%;
   display: flex;
   flex-direction: column;
 }
@@ -18,7 +18,7 @@
 
 .brief-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   /* padding: 0 2rem; */
   height: 95vh;

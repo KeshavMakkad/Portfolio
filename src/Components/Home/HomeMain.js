@@ -1,4 +1,5 @@
 import "./homeMain.css";
+import GIF from "./../../assets/giphy.webp";
 
 function homeMain() {
   const homeMain = (
@@ -11,11 +12,7 @@ function homeMain() {
         <h3>Full Stack Developer</h3>
       </div>
       <div class="image-home">
-        <img
-          src="https://cdni.iconscout.com/illustration/premium/thumb/full-stack-web-developer-4549256-3766897.png"
-          alt="Dev pic"
-          class="dev-pic"
-        />
+        <img src={GIF} alt="Dev pic" class="dev-pic" />
       </div>
     </div>
   );

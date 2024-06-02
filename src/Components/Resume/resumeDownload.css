@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   height: 95vh;
-  margin: 5rem;
+  /* margin: 5rem; */
   flex-flow: column;
 }
 
@@ -19,4 +19,5 @@
 
 .resume-img {
   height: 100%;
+  padding: 6rem 0 0 0;
 }

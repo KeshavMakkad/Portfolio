@@ -1,4 +1,5 @@
 import "./brief.css";
+import TEA from "./../../assets/coffee-morning.gif";
 
 function brief() {
   const brief = (
@@ -26,11 +27,7 @@ function brief() {
           And of course, I love <span class="color-2">Chai</span>!
         </p>
       </div>
-      <img
-        src="https://w7.pngwing.com/pngs/578/816/png-transparent-java-class-file-java-platform-standard-edition-java-development-kit-java-runtime-environment-coffee-jar-text-class-orange-thumbnail.png"
-        class="brief-image"
-        alt="Java Logo"
-      />
+      <img src={TEA} class="brief-image" alt="Java Logo" />
     </div>
   );
 

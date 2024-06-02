@@ -9,7 +9,7 @@
 .desctiprion-text-container {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  width: 60%;
+  width: 40%;
   display: flex;
   flex-direction: column;
 }
