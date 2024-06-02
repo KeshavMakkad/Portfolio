@@ -1,14 +1,21 @@
-import "./styles.css";
-import Home from "./Portfolio/Home/home.js";
-import AboutMe from "./Portfolio/AboutMe/about.js";
-import Resume from "./Portfolio/Resume/resume.js"
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./Pages/home";
+import About from "./Pages/about";
+import Resume from "./Pages/resume";
+import Projects from "./Pages/projects.js";
 
 export default function App() {
   return (
-    <div className="App">
-      <Home />
-      <AboutMe />
-      <Resume />
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/project" element={<Projects />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }

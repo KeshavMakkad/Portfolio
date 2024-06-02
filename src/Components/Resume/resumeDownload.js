@@ -1,14 +1,10 @@
-import { Viewer } from "@react-pdf-viewer/core";
-import "@react-pdf-viewer/core/lib/styles/index.css";
-
 import "./resumeDownload.css";
-import ResumeImage from "./../assets/resume.webp";
-import ResumePDF from "./../assets/resume.pdf";
+import ResumeImage from "./../../assets/resume.webp";
 
 function download() {
   const download = (
     <div className="download-area">
-      <img src={ResumeImage} alt="resume-image" />
+      <img src={ResumeImage} alt="resume-image" className="resume-img" />
 
       <button className="download-button">
         <a href={ResumeImage} download="resume.webp">

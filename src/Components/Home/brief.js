@@ -4,11 +4,11 @@ function brief() {
   const brief = (
     <div class="brief-container">
       <div className="text-container">
-        <h1>
+        <h1 className="brief-heading">
           <span class="color-1">Brief</span>
           <span class="color-2"> Introduction</span>
         </h1>
-        <p>
+        <p className="brief-text">
           I am a <span class="color-2">full stack developer</span> currently
           studying, proficient in{" "}
           <span class="color-2">Java, HTML, CSS, and JavaScript</span>, with

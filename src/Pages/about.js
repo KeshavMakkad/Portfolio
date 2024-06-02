@@ -1,7 +1,7 @@
-import Navbar from "../navbar.js";
-import Footer from "../footer.js";
-import SelfDescription from "./selfDescription.js";
-import SkillSet from "./skillSet.js";
+import Navbar from "./../Components/Common/navbar.js";
+import Footer from "./../Components/Common/footer.js";
+import SelfDescription from "./../Components/About/selfDescription.js";
+import SkillSet from "./../Components/About/skillSet.js";
 
 function aboutMe() {
   const aboutMe = (

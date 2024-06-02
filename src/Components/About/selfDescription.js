@@ -7,7 +7,7 @@ function selfDescription() {
         <h1 className="description-heading">
           Get to <span className="color-2">know</span> me
         </h1>
-        <p class="description-text">
+        <p className="description-text">
           Hi, my name is <span class="color-2">Keshav Makkad</span> and I am
           from Telangana, India. I'm a <span class="color-2">full stack </span>
           developer and a first year college student pursuing a BSc in CSE.
@@ -34,11 +34,11 @@ function selfDescription() {
           .
         </p>
       </div>
-      <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffree-png-vectors%2Fprogrammer&psig=AOvVaw0lTLyQSlUtqVAiVnDEoHdg&ust=1717053178880000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCgodinsoYDFQAAAAAdAAAAABAE" alt="Dev Cartoon
-      "/>
-
-      
-
+      <img
+        src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffree-png-vectors%2Fprogrammer&psig=AOvVaw0lTLyQSlUtqVAiVnDEoHdg&ust=1717053178880000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCgodinsoYDFQAAAAAdAAAAABAE"
+        alt="Dev Cartoon
+      "
+      />
     </div>
   );
 

@@ -1,8 +1,8 @@
-import Brief from "./brief.js";
+import Brief from "../Components/Home/brief.js";
 import "./home.css";
-import HomeMain from "./HomeMain.js";
-import Navbar from "./../navbar.js";
-import Footer from "./../footer.js";
+import HomeMain from "../Components/Home/HomeMain.js";
+import Navbar from "../Components/Common/navbar.js";
+import Footer from "../Components/Common/footer.js";
 
 function home() {
   const home = (

@@ -2,7 +2,7 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   /* direction: initial; */
-  width: 70%;
+  width: 60%;
   display: flex;
   flex-direction: column;
 }
@@ -18,7 +18,7 @@
 
 .brief-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   /* padding: 0 2rem; */
   height: 95vh;
@@ -28,9 +28,14 @@
 
 .brief-image {
   width: 20%;
-  height: 15%;
+  height: 30%;
 }
 
-h1 {
+.brief-heading {
   margin: 10px 0;
+  font-size: 4rem;
+}
+
+.brief-text {
+  font-size: x-large;
 }

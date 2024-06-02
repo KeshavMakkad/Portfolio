@@ -3,13 +3,13 @@
   padding: 0 5rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .desctiprion-text-container {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  width: 70%;
+  width: 60%;
   display: flex;
   flex-direction: column;
 }
@@ -21,4 +21,12 @@
 .color-2 {
   font-weight: 800;
   color: #7c3aed;
+}
+
+.description-heading {
+  font-size: 4rem;
+}
+
+.description-text {
+  font-size: larger;
 }
