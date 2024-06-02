@@ -1,0 +1,11 @@
+.projects-body {
+  display: flex;
+  height: 95vh;
+  flex-flow: column;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

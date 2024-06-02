@@ -4,13 +4,14 @@
 }
 
 .skill-set-tab {
-  height: 150px;
-  width: 10%;
+  height: 200px;
+  width: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 3px solid black;
   border-radius: 5px;
+  margin: 40px 20px;
 }
 
 .skill-set-img {
