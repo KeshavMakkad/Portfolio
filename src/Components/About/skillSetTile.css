@@ -5,21 +5,26 @@
 
 .skill-set-tab {
   height: 200px;
-  width: 200px;
+  width: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 3px solid black;
   border-radius: 5px;
   margin: 40px 20px;
+  transition: 0.5s;
 }
 
 .skill-set-img {
-  height: 45%;
+  height: 70%;
   width: 45%;
 }
 
 .skills-heading {
   text-align: center;
   margin: 2rem;
+}
+
+.skill-set-tab:hover {
+  transform: scale(1.2);
 }

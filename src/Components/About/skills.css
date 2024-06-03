@@ -3,5 +3,5 @@
   padding: 0 15rem;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
