@@ -1,12 +1,14 @@
+import React from "react";
 import "./skillSetTile.css";
 
-function skillSetTab(imageURL) {
-  const skillSetTab = (
+function SkillSetTab({ imageURL }) {
+  console.log("Rendering image URL:", imageURL);
+
+  return (
     <div className="skill-set-tab">
-      <img className="skill-set-img" src={imageURL} />
+      <img className="skill-set-img" src={imageURL} alt="Skill" />
     </div>
   );
-  return skillSetTab;
 }
 
-export default skillSetTab;
+export default SkillSetTab;

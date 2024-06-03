@@ -54,3 +54,8 @@
 .links-container button:hover {
   background-color: #5348c9;
 }
+
+.project-img {
+  height: 66%;
+  width: 66%;
+}

@@ -1,7 +1,8 @@
+import React from "react";
 import "./projectTile.css";
 
-function tile({ img, header, text, linkGithub, linkDemo }) {
-  const tile = (
+function ProjectTile({ img, header, text, linkGithub, linkDemo }) {
+  return (
     <div className="project-tile">
       <div className="project-text-container">
         <img className="project-img" src={img} alt="project" />
@@ -16,7 +17,6 @@ function tile({ img, header, text, linkGithub, linkDemo }) {
       </div>
     </div>
   );
-
-  return tile;
 }
-export default tile;
+
+export default ProjectTile;
