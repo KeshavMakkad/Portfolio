@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
-import profileIMG from "./../../assets/360_F_391695153_SP2ROLAgm3OltQIyIH916vYogXGdR9Dj.jpg";
+import profileIMG from "./../../assets/logo.jpg";
 <link
   rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"

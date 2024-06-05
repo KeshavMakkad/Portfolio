@@ -1,5 +1,5 @@
 .project-tile {
-  height: 40vh;
+  height: 50vh;
   background-color: #1c1c2d;
   border: 2px solid #6c63ff;
   border-radius: 10px;
@@ -12,7 +12,7 @@
   transition: transform 0.2s;
   display: flex;
   flex-flow: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
