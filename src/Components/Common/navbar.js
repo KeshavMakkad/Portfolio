@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
+import profileIMG from "./../../assets/360_F_391695153_SP2ROLAgm3OltQIyIH916vYogXGdR9Dj.jpg";
 <link
   rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
@@ -11,7 +12,7 @@ function Navbar() {
     <nav className="nav-bar">
       <h1 className="logo-header">
         <Link to="/">
-          <img src="https://via.placeholder.com/150" alt="Logo" />
+          <img src={profileIMG} alt="Logo" className="profile-img" />
         </Link>
       </h1>
       <div className="nav-links-container">
